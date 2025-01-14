@@ -4,7 +4,7 @@ import { MDBCarousel, MDBCarouselCaption, MDBCarouselItem } from 'mdb-react-ui-k
 const Slider = () => {
     return (
         <div>
-            <MDBCarousel showControls showIndicators>
+            <MDBCarousel showControls showIndicators dark fade>
                 <MDBCarouselItem itemId={1}>
                     <img src='/slider/slider1.png' className='d-block w-100' alt='...' />
                     <MDBCarouselCaption>
